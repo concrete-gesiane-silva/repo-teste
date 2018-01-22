@@ -4,7 +4,7 @@
 
 Ele é usado em grandes projetos em empresas como Facebook, Twitter, Linkedin, Netflix e muitos outros.
 
-![GitHub Logo](/Users/gesianesilva/Downloads/Git-Logo-2Color.png)
+![GitHub Logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
 
 ### Primeiros passos com o GIT
 
