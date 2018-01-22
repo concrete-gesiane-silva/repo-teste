@@ -4,6 +4,8 @@
 
 Ele é usado em grandes projetos em empresas como Facebook, Twitter, Linkedin, Netflix e muitos outros.
 
+![GitHub Logo](/Users/gesianesilva/Downloads/Git-Logo-2Color.png)
+
 ### Primeiros passos com o GIT
 
 1. Instale o pacote do git:
@@ -108,8 +110,67 @@ Também podemos utilizar tags em commit já realizados anteriormente.
 
 ### Trabalhando com Branches
 
+Branches ("ramos") são utilizados para fazer ramificação do projeto a partir da sua linha principal.
+
+A Branch default do repositório é a Branch master.
+
+Os branches podem ser mesclados (merge) uns com os outros para unificar o projeto novamente.
+
+Vamos criar um branch testing.
+
+1. Crie um branch de nome testing
+
+`# git checkout ­-b testing`
 
 
+2. Liste os branches do projeto.
+
+`# git branch`
+
+
+3. Salve as mudanças no novo branch.
+
+`# echo “DevOps” >> arquivo2`
+
+`# git add ­­--all`
+
+`# git commit ­-m “Novo arquivo adicionado”`
+
+### GIT checkout
+
+O comando checkout é utilizado para você navegar entre as branches do seu projeto. Podemos usar o parãmetro -b para criar a branch caso ela não exista e transferir os arquivos atuais para a branch.
+
+### GIT branch
+
+O comando branch é usado para gerenciar as branches do projeto. Você pode criar, listar ou deletar branches do projeto.
+
+Vamos mesclar o branch de testing com o master.
+
+1. Visualize as diferenças entre os branches.
+
+`# git checkout master`
+
+`# ls`
+
+2. Visualize as diferenças entre os branches.
+
+`# git diff master testing`
+
+3. Realize o merge entre os branches.
+
+`# git merge testing`
+
+`# ls`
+
+### GIT diff
+
+Este comando é utilizado para verificar diferenças entre arquivos, commits, entre commit e working tree, etc.
+
+### GIT merge
+
+O comando é utilizado para mesclar dois objetos no GIT. 
+
+Veja mais infos na doc oficial: [GIT](https://git-scm.com/)
 
 
 
